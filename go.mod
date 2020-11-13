@@ -1,4 +1,4 @@
-module github.com/jsenon/demo-devops
+module github.com/fsaint-michel/demo-devops
 
 go 1.15
 
