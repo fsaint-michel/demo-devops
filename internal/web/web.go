@@ -21,7 +21,7 @@ import (
 
 // Serve luanch http server
 func Serve() {
-	log.Info().Msg("Startin Web Server on port 8080")
+	log.Info().Msg("Starting Web Server on port 8080")
 	var tracer opentracing.Tracer
 	if !viper.GetBool("DISABLETRACE") {
 		jaeger := viper.GetString("JAEGERURL")
