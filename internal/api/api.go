@@ -26,5 +26,5 @@ func HelloNok(w http.ResponseWriter, r *http.Request) {
 	mymetrics.HelloNOK.Inc()
 
 	log.Info().Msgf("Failed done Hello func")
-	w.Write([]byte(fmt.Sprintf("Hello Word!\n")))
+	w.Write([]byte(fmt.Sprintf("Hello Word marche pas!\n")))
 }
