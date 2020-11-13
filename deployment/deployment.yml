@@ -28,13 +28,11 @@ spec:
           args:
             [
               "server",
-              "--outputdir",
-              "/datas",
               "--disabletrace",
             ]
-          volumeMounts:
-            - mountPath: /datas
-              name: demo-devops-volume
-      volumes:
-        - name: demo-devops-volume
-          emptyDir: {}
+      #     volumeMounts:
+      #       - mountPath: /datas
+      #         name: demo-devops-volume
+      # volumes:
+      #   - name: demo-devops-volume
+      #     emptyDir: {}
