@@ -1,6 +1,6 @@
 # Simple HTTP Server
 
-A Simple Http server for devops demo.
+A Simple Http server for devops demo Friday 13th Nov
 
 ## Usage
 
