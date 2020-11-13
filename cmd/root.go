@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jsenon/demo-devops/configs"
+	"github.com/fsaint-michel/demo-devops/configs"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 

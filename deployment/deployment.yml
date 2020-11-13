@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: demo-devops
-          image: jsenon/demo-devops:latest
+          image: fsaint-michel/demo-devops:latest
           imagePullPolicy: Always
           resources:
             limits:

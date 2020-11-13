@@ -16,9 +16,9 @@ limitations under the License.
 package cmd
 
 import (
-	"github.com/jsenon/demo-devops/configs"
-	mylog "github.com/jsenon/demo-devops/internal/log"
-	"github.com/jsenon/demo-devops/internal/web"
+	"github.com/fsaint-michel/demo-devops/configs"
+	mylog "github.com/fsaint-michel/demo-devops/internal/log"
+	"github.com/fsaint-michel/demo-devops/internal/web"
 
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"

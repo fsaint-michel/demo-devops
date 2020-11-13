@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	mymetrics "github.com/jsenon/demo-devops/internal/metrics"
+	mymetrics "github.com/fsaint-michel/demo-devops/internal/metrics"
 
 	"github.com/rs/zerolog/log"
 )

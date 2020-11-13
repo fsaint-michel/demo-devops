@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/jsenon/demo-devops/cmd"
+import "github.com/fsaint-michel/demo-devops/cmd"
 
 func main() {
 	cmd.Execute()

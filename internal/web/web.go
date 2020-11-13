@@ -12,8 +12,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/spf13/viper"
 
-	myopentracing "github.com/jsenon/demo-devops/internal/opentracing"
-	"github.com/jsenon/demo-devops/internal/api"
+	myopentracing "github.com/fsaint-michel/demo-devops/internal/opentracing"
+	"github.com/fsaint-michel/demo-devops/internal/api"
 	"github.com/opentracing-contrib/go-stdlib/nethttp"
 
 	"github.com/rs/zerolog/log"
